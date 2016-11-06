@@ -1,0 +1,24 @@
+{
+  "name": "statusbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slack_bot.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csukeyosi/statusbot.git"
+  },
+  "author": "Carla Sukeyosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csukeyosi/statusbot/issues"
+  },
+  "homepage": "https://github.com/csukeyosi/statusbot#readme",
+  "dependencies": {
+    "botkit": "^0.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
